@@ -3,7 +3,7 @@ Cowsay
 ======
 A cowsay implementation in Haskell. Based on the original cowsay implementation
 of [Tony Monroe](http://www.nog.net/~tony/warez/cowsay-3.03.tar.gz), inspired
-by @advi.
+by [@advi](https://github.com/avdi).
 
 Did you know there's even a [Wiki](http://en.wikipedia.org/wiki/Cowsay)
 on cowsay?
@@ -11,8 +11,7 @@ on cowsay?
 
 Usage
 -----
-    `$ cowsay -h`
-
+    $ cowsay -h
     Usage: cowsay [OPTIONS] [MESSAGE]
       -l         --list           List available cows
       -f FILE    --file=FILE      Set cow type
@@ -29,7 +28,7 @@ Usage
       -T TONGUE  --tongue=TONGUE  Set cow tongue
 
 
-    `$ ./cowsay -e "^^" -f small Moooooooooooooooooooo!`
+    $ ./cowsay -e "^^" -f small Moooooooooooooooooooo!
      ________________________
     < Moooooooooooooooooooo! >
      ------------------------
@@ -37,14 +36,13 @@ Usage
             \  (^^)____
                (__)    )\\
                   ||--|| *
-    
 
 
 TODO
 ----
 The following functionality is lacking compared to the original version:
- [ ] Being able to read from stdin
- [ ] Disable word wrapping (the `-n` flag)
+ - Being able to read from stdin
+ - Disable word wrapping (the `-n` flag)
 
 
 License
