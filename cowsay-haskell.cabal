@@ -1,0 +1,20 @@
+name:                cowsay-haskell
+version:             0.1.0
+synopsis:            A cowsay implementation in Haskell
+homepage:            https://github.com/MelleB/cowsay-haskell
+license-file:        LICENSE
+author:              MelleB
+category:            Game
+build-type:          Simple
+cabal-version:       >=1.8
+tested-with:         GHC == 7.4.1
+
+source-repository    head
+  type:              git
+  location:          git://github.com/melleb/cowsay-haskell.git
+
+executable cowsay-haskell
+  main-is:             cowsay.hs
+  build-depends:       base >=4.5,
+                       directory
+  ghc-options:         -Wall

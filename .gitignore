@@ -1,0 +1,6 @@
+cowsay-3.03
+*.hi
+*.o
+cowsay
+cabal-dev
+dist
